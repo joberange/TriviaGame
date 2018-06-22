@@ -1,0 +1,22 @@
+.jumbotron{
+    width : 960px;
+    background-color: slategrey;
+    opacity: 1;
+    display: block;
+    text-align: center;
+    margin: 50px auto;
+
+    
+}
+
+h1{
+    font-size: 100px;
+}
+body{
+    background-image: url(../images/wood.jpg);
+    font-size: 20px;
+}
+
+.answer{
+    font-size: 30px;
+}
