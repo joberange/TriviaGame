@@ -8,7 +8,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css"/>
     </head> 
     <body>
         <div class="jumbotron page1">
@@ -17,72 +17,88 @@
                 <h2>Start Game</h2>
             </button>
         </div>
-
-        <div class="jumbotron page2">
-            <h1>Trivia Trivia!!</h1>
-            <div class="container">
-                <h2>Time Remaining: 
-                    <div class="time"></div>
-                </h2>
-            </div>
-            <div class="container">
-                <h2>How much wood could a woodchuck chuck if a woodchuck could chuck wood?</h2>
-                <input type="radio" class="q1-1"> 100 Pounds
-                <input type="radio" class="q1-2"> 500 Pounds
-                <input type="radio" class="q1-3"> 700 Pounds
-                <input type="radio" class="q1-4"> 1000 Pounds
-            </div>    
-            <div class="container">
-                <h2>Quiestion 2?</h2>
-                <input type="radio" class="q1-1">
-                <input type="radio" class="q1-2">
-                <input type="radio" class="q1-3">
-                <input type="radio" class="q1-4">
-            </div>
-            <div class="container">
-                <h2>Quiestion 3?</h2>
-                <input type="radio" class="q1-1">
-                <input type="radio" class="q1-2">
-                <input type="radio" class="q1-3">
-                <input type="radio" class="q1-4">
-            </div>
-            <div class="container">
-                <h2>Quiestion 4?</h2>
-                <input type="radio" class="q1-1">
-                <input type="radio" class="q1-2">
-                <input type="radio" class="q1-3">
-                <input type="radio" class="q1-4">
-            </div>
-            <div class="container">
-                <h2>Quiestion 5?</h2>
-                <input type="radio" class="q1-1">
-                <input type="radio" class="q1-2">
-                <input type="radio" class="q1-3">
-                <input type="radio" class="q1-4">
-            </div>
-            <div class="container">
-                <h2>Quiestion 6?</h2>
-                <input type="radio" class="q1-1">
-                <input type="radio" class="q1-2">
-                <input type="radio" class="q1-3">
-                <input type="radio" class="q1-4">
-            </div>
-            <div class="container">
-                <h2>Quiestion 7?</h2>
-                <input type="radio" class="q1-1">
-                <input type="radio" class="q1-2">
-                <input type="radio" class="q1-3">
-                <input type="radio" class="q1-4">
-            </div>
-            <div class="container">
-                <h2>Quiestion 8?</h2>
-                <input type="radio" class="q1-1">
-                <input type="radio" class="q1-2">
-                <input type="radio" class="q1-3">
-                <input type="radio" class="q1-4">
+        <div class="container">
+            <div class="jumbotron page2">
+                <h1>Trivia Trivia!!</h1>
+                <div class="">
+                    <h2>Time Remaining: 
+                        <div class="time"></div>
+                    </h2>
+                </div>
+                <div class="card">
+                    <h2 class="card-header">How much wood could a woodchuck chuck if a woodchuck could chuck wood? 3</h2>
+                    <div class="card-body">
+                        <input type="radio" class="q1-1"> 100 Pounds
+                        <input type="radio" class="q1-2"> 500 Pounds
+                        <input type="radio" class="q1-3"> 700 Pounds
+                        <input type="radio" class="q1-4"> 1000 Pounds
+                    </div>
+                </div>    
+                <div class="card">
+                    <h2 class="card-header">Which wood glue is the strongest? 4</h2>
+                    <div class="card-body">
+                        <input type="radio" class="q1-1"> Gorilla Glue
+                        <input type="radio" class="q1-2"> Welbond
+                        <input type="radio" class="q1-3"> Epoxy
+                        <input type="radio" class="q1-4"> Titebond 3
+                    </div>
+                </div>
+                <div class="card">
+                    <h2 class="card-header">What is the strongest wood to build with? 1</h2>
+                    <div class="card-body">
+                        <input type="radio" class="q1-1"> Ebony
+                        <input type="radio" class="q1-2"> Hickory
+                        <input type="radio" class="q1-3"> Red Oak
+                        <input type="radio" class="q1-4"> Mahogany
+                    </div>
+                </div>
+                <div class="card">
+                    <h2 class="card-header">Which is the best protable sawmill? 3</h2>
+                    <div class="card-body">
+                        <input type="radio" class="q1-1"> Wood-Mizer
+                        <input type="radio" class="q1-2"> Norwood
+                        <input type="radio" class="q1-3"> Timber-King
+                        <input type="radio" class="q1-4"> Hudson
+                    </div>
+                </div>
+                <div class="card">
+                    <h2 class="card-header">What is the strongest woodworking joint? 2</h2>
+                    <div class="card-body">
+                        <input type="radio" class="q1-1"> Butt
+                        <input type="radio" class="q1-2"> Mortise and Tenon
+                        <input type="radio" class="q1-3"> Dovetail
+                        <input type="radio" class="q1-4"> Rabbet
+                    </div>
+                </div>
+                <div class="card">
+                    <h2 class="card-header">What is the best benchtop planer? 3</h2>
+                    <div class="card-body">
+                        <input type="radio" class="q1-1"> Wen 6552
+                        <input type="radio" class="q1-2"> Makita 2012NB
+                        <input type="radio" class="q1-3"> Dewalt DW735X
+                        <input type="radio" class="q1-4"> Grizzly G0505
+                    </div>
+                </div>
+                <div class="card">
+                    <h2 class="card-header">What is the best wood carving set? 4</h2>
+                    <div class="card-body">
+                        <input type="radio" class="q1-1"> VonHaus
+                        <input type="radio" class="q1-2"> Sorby
+                        <input type="radio" class="q1-3"> Sunreek
+                        <input type="radio" class="q1-4"> Two Cherries
+                    </div>
+                </div>
+                <div class="card">
+                    <h2 class="card-header">What is the best dust collection system? 4</h2>
+                    <div class="card-body">
+                        <input type="radio" class="q1-1"> Shop Fox W1685
+                        <input type="radio" class="q1-2"> Oneida Air
+                        <input type="radio" class="q1-3"> Powermatic PM1300TX
+                        <input type="radio" class="q1-4"> Jet DC1100VX-5M
+                    </div>
+                </div>
             </div>
         </div>
-
         <div class="jumbotron page3">
             <h2>Correct:
                 <span class="correct"></span>

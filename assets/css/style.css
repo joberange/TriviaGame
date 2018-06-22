@@ -16,7 +16,7 @@ body{
     background-image: url(../images/wood.jpg);
     font-size: 20px;
 }
-
-.answer{
-    font-size: 30px;
+.container,
+.card{
+    background-color: slategrey;
 }
